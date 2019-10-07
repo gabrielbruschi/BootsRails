@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.5.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -11,9 +11,9 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 
 ##BootsTrap
-gem ’bootstrap’, ’~> 4.2.1’
-gem ’autoprefixer-rails’, ’~> 9.6.4’
-gem ’jquery-rails’, ’~> 4.3.5’
+gem 'bootstrap', '~> 4.3.1'
+gem 'autoprefixer-rails', '~> 9.6.4'
+gem 'jquery-rails', '~> 4.3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
